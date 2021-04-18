@@ -1,6 +1,6 @@
-# LEX21-LPR-practice
+# LEX23-LPR-practice
 
-LEX21 (Part A) and LEX22 (Part B) together are a practice run for the Lab Practical exam (LPR).  LPR is also split into two parts.
+LEX23 (Part A) and LEX24 (Part B) together are a practice run for the Lab Practical exam (LPR).  LPR is also split into two parts.
 
 Remember that your goal is to demonstrate your ability to use all the tools we've discussed, as well as a sound and methodical approach to both developing software, ensuring its correctness and performance, and tracking down and fixing bugs.
 
@@ -137,5 +137,5 @@ Write functions to create a blocks world, as follows:
   The array-based approach is probably the easier one.    
   
   ## Feedback
-  Please give [feedback](https://docs.google.com/forms/d/e/1FAIpQLSfSl1aEdPL4wwYq5fFmbUkHpBG_1sYiuaIGTzpLyp7t8xg6qw/viewform?usp=sf_link)!
+  Please give [feedback](https://docs.google.com/forms/d/e/1FAIpQLSfNikO7hn7rqANVoRDZOtV8eupjtkbjplI0W5oGkeOx7RO1vA/viewform?usp=sf_link)!
   
