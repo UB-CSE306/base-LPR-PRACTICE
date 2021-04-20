@@ -61,25 +61,25 @@ Write functions to create a blocks world, as follows:
 
   <p>Write functions to observe the world, as follows:</p>
   <ol type="i">
-  <li><b><tt>onTable(m)</tt></b> is true if m is directly on the table, and false if m is on
-  another block.  <tt>onTable(0)</tt> always returns false.  If m is not in the
+  <li><b><tt>isOnTable(m)</tt></b> is true if m is directly on the table, and false if m is on
+  another block.  <tt>isOnTable(0)</tt> always returns false.  If m is not in the
   range 0 through N (inclusive) then the function call returns false.
   </li>
 
-  <li><b><tt>open(m)</tt></b> is true if there is no block on m, false otherwise.
-  <tt>open(0)</tt> always returns true.  If m is not in the range 0 through N
+  <li><b><tt>isOpen(m)</tt></b> is true if there is no block on m, false otherwise.
+  <tt>isOpen(0)</tt> always returns true.  If m is not in the range 0 through N
   (inclusive) then the function call returns false.
   </li>
 
-  <li><b><tt>on(m)</tt></b> returns 0 if m is directly on the table, and n if m is directly
+  <li><b><tt>isOn(m)</tt></b> returns 0 if m is directly on the table, and n if m is directly
   on block n.  If m is not in the range 0 through N (inclusive) then the
-  function call returns false <tt>on(m)</tt> returns m (i.e. an invalid block
+  function call returns false <tt>isOn(m)</tt> returns m (i.e. an invalid block
   number).
   </li>
 
-  <li><b><tt>above(m,n)</tt></b> returns true if m is directly on n, or if m is directly
-  on x and x is above n. (In other words, <tt>above</tt> is the transitive
-  closure of <tt>on</tt>).  <tt>above(m,n)</tt> returns false in any other case.
+  <li><b><tt>isAbove(m,n)</tt></b> returns true if m is directly on n, or if m is directly
+  on x and x is above n. (In other words, <tt>isAbove</tt> is the transitive
+  closure of <tt>isOn</tt>).  <tt>isAbove(m,n)</tt> returns false in any other case.
   </li>
 
   </ol>
