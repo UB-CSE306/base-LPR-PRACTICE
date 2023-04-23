@@ -10,8 +10,8 @@ Here's a quick summary of what we expect you to showcase (we will NOT give you t
 * git (on GitHub)
 * Planning tool (ZenHub) - use for planning rather than collaboration in LPR since this is an individual activity
 * Build tools (make)
-* TDD/blackbox testing (CUnit)
-* Software testing - whitebox testing (CUnit)
+* TDD/opaque testing (Criterion)
+* Software testing - transparent testing (Criterion)
 * Code Coverage (gcov)
 * Compiler
 * Performance tools (gprof, valgrind/callgrind)
@@ -111,31 +111,32 @@ Write functions to create a blocks world, as follows:
 
   <p><b>ADVICE</b> Obviously get as much done as you can on solving the problem, but
   keep in mind that it is more important to show mastery of the tools
-  and techniques we've discussed than it is to just produce working                                                                                                                     
-  code.  Make sure you write tests, measure the coverage of those tests,                                                                                                                
-  have a makefile to manage creating both a test and a non-test                                                                                                                         
-  executable file, use git effectively.  In part B you will demonstrate                                                                                                                 
-  your facility with the debugger and the valgrind tool suite.                                                                                                                          
-  </p>                                                                                                                                                                                  
-                                                                                                                                                                                        
-  <p><b>HINTS</b> Here are some ideas of data structures you can use to model the blocks world.  You do not have use either.</p>                                                        
-  <ol type="i"><li> One possible approach is to use a linked list                                                                                                                       
-  approach.  Implement a block as a struct with two fields: an int (its                                                                                                                 
-  number) and a pointer (let’s call it “below”) to another block.  If                                                                                                                   
-  “below” is null then the block is on the table.  A block is open if                                                                                                                   
-  there is no block whose “below” link points to it.  Implement the                                                                                                                     
-  world as a linked list of blocks.  To locate block number n search through                                                                                                            
-  the list until the block with that number is found.</li>                                                                                                                              
-                                                                                                                                                                                        
-  <li>Another possible approach is to use an array-based approach:                                                                                                                      
-  implement world with N blocks as an array in which block number n is                                                                                                                  
-  in array[n].  The entry for array[n] is either 0 (in which case it is                                                                                                                 
-  on the table) or it is k (0&lt;k&le;N, and n&ne;k), in which case                                                                                                                     
-  block n is ‘on’ block k.  Block n is open if there is no block whose                                                                                                                  
-  entry in the array is n. is link points to it.</li>                                                                                                                                   
-  </ol>                                                                                                                                                                                 
-  The array-based approach is probably the easier one.    
+  and techniques we've discussed than it is to just produce working 
+  code.  Make sure you write tests, measure the coverage of those tests,
+  have a makefile to manage creating both a test and a non-test
+  executable file, use git effectively.  In part B you will demonstrate
+  your facility with the debugger and the valgrind tool suite.
+  </p>
   
-  ## Feedback
-  Please give [feedback](https://docs.google.com/forms/d/e/1FAIpQLSfNikO7hn7rqANVoRDZOtV8eupjtkbjplI0W5oGkeOx7RO1vA/viewform?usp=sf_link)!
+  <p><b>HINTS</b> Here are some ideas of data structures you can use to model the blocks world.  You do not have use either.</p>
   
+  <ol type="i">
+  
+  <li> One possible approach is to use a linked list
+  approach.  Implement a block as a struct with two fields: an int (its
+  number) and a pointer (let’s call it “below”) to another block.  If
+  “below” is null then the block is on the table.  A block is open if
+  there is no block whose “below” link points to it.  Implement the
+  world as a linked list of blocks.  To locate block number n search through
+  the list until the block with that number is found.</li>
+  
+  <li>Another possible approach is to use an array-based approach:
+  implement world with N blocks as an array in which block number n is
+  in array[n].  The entry for array[n] is either 0 (in which case it is
+  on the table) or it is k (0&lt;k&le;N, and n&ne;k), in which case
+  block n is ‘on’ block k.  Block n is open if there is no block whose
+  entry in the array is n. is link points to it.</li>
+  
+  </ol>
+  
+  The array-based approach is probably the easier one.
