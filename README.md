@@ -136,9 +136,9 @@ Write functions to create a blocks world, as follows:
   <li>Another possible approach is to use an array-based approach:
   implement world with N blocks as an array in which block number n is
   in array[n].  The entry for array[n] is either 0 (in which case it is
-  on the table) or it is k (0&lt;k&le;N, and n&ne;k), in which case
+  on the table) or it is k (0&lt;k&le;N), in which case
   block n is ‘on’ block k.  Block n is open if there is no block whose
-  entry in the array is n. is link points to it.</li>
+  entry in the array is n.</li>
   
   </ol>
   
