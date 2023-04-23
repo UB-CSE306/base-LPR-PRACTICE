@@ -109,7 +109,8 @@ Write functions to create a blocks world, as follows:
  ## PART A: Hints and Advice</h4></div>
   <div class="panel-body">
 
-  <p><b>ADVICE</b> Obviously get as much done as you can on solving the problem, but
+###ADVICE
+  <p>Obviously get as much done as you can on solving the problem, but
   keep in mind that it is more important to show mastery of the tools
   and techniques we've discussed than it is to just produce working 
   code.  Make sure you write tests, measure the coverage of those tests,
@@ -118,7 +119,9 @@ Write functions to create a blocks world, as follows:
   your facility with the debugger and the valgrind tool suite.
   </p>
   
-  <p><b>HINTS</b> Here are some ideas of data structures you can use to model the blocks world.  You do not have use either.</p>
+
+###HINTS
+  <p> Here are some ideas of data structures you can use to model the blocks world.  You do not have use either.</p>
   
   <ol type="i">
   
