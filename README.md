@@ -106,10 +106,10 @@ Write functions to create a blocks world, as follows:
   on top), and a third consisting of blocks 8, 9, 10, 11, and 12 (with
   the analogous structure).
  
- ## PART A: Hints and Advice</h4></div>
+## PART A: Hints and Advice</h4></div>
   <div class="panel-body">
 
-###ADVICE
+### ADVICE
   <p>Obviously get as much done as you can on solving the problem, but
   keep in mind that it is more important to show mastery of the tools
   and techniques we've discussed than it is to just produce working 
@@ -120,7 +120,7 @@ Write functions to create a blocks world, as follows:
   </p>
   
 
-###HINTS
+### HINTS
   <p> Here are some ideas of data structures you can use to model the blocks world.  You do not have use either.</p>
   
   <ol type="i">
