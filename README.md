@@ -8,7 +8,7 @@ Work on Part A now.  We'll give you Part B to practice on next lab session.
 
 Here's a quick summary of what we expect you to showcase (we will NOT give you this list explicitly during the actual lab exam, but you can look it up here):
 * git (on GitHub)
-* Planning tool (ZenHub) - use for planning rather than collaboration in LPR since this is an individual activity
+* Planning tool (Trello) - use for planning rather than collaboration in LPR since this is an individual activity
 * Build tools (make)
 * TDD/opaque testing (Criterion)
 * Software testing - transparent testing (Criterion)
