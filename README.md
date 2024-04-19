@@ -73,7 +73,7 @@ Write functions to create a blocks world, as follows:
 
   <li><b><tt>isOn(m)</tt></b> returns 0 if m is directly on the table, and n if m is directly
   on block n.  If m is not in the range 0 through N (inclusive) then the
-  function call returns false <tt>isOn(m)</tt> returns m (i.e. an invalid block
+  function call <tt>isOn(m)</tt> returns m (i.e. an invalid block
   number).
   </li>
 
